@@ -1,6 +1,7 @@
 package com.example.jpa.service;
 
 import com.example.jpa.entities.Singer;
+import com.example.jpa.entities.criteria.Singer_;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Repository;
@@ -10,6 +11,10 @@ import org.springframework.transaction.annotation.Transactional;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.TypedQuery;
+import javax.persistence.criteria.CriteriaBuilder;
+import javax.persistence.criteria.CriteriaQuery;
+import javax.persistence.criteria.JoinType;
+import javax.persistence.criteria.Root;
 import java.util.List;
 
 @Service("jpaSingerService")
@@ -25,6 +30,13 @@ public class SingerServiceImpl implements SingerService {
 
     @PersistenceContext
     private EntityManager em;
+
+    @Transactional(readOnly = true)
+    @Override
+    public List<Singer> findByCriteriaQuery(String firstName, String lastName) {
+        // TODO
+        return null;
+    }
 
     @Transactional(readOnly=true)
     @Override
