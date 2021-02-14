@@ -1,7 +1,7 @@
-package com.example.jpa;
+package spring.jpa;
 
-import com.example.jpa.entities.Singer;
-import com.example.jpa.service.SingerService;
+import spring.jpa.entities.Singer;
+import spring.jpa.service.SingerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.CommandLineRunner;
