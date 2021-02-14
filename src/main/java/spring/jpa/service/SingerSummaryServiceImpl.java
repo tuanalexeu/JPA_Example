@@ -1,6 +1,6 @@
-package com.example.jpa.service;
+package spring.jpa.service;
 
-import com.example.jpa.view.SingerSummary;
+import spring.jpa.view.SingerSummary;
 import org.springframework.stereotype.Repository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

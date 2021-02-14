@@ -1,7 +1,7 @@
-package com.example.jpa.service;
+package spring.jpa.service;
 
 
-import com.example.jpa.view.SingerSummary;
+import spring.jpa.view.SingerSummary;
 
 import java.util.List;
 

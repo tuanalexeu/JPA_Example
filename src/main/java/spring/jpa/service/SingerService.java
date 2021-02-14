@@ -1,6 +1,6 @@
-package com.example.jpa.service;
+package spring.jpa.service;
 
-import com.example.jpa.entities.Singer;
+import spring.jpa.entities.Singer;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;

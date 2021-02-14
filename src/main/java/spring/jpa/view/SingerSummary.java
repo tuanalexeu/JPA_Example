@@ -1,4 +1,4 @@
-package com.example.jpa.view;
+package spring.jpa.view;
 
 import java.io.Serializable;
 
