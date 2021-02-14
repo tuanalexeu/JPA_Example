@@ -1,9 +1,9 @@
-package com.example.jpa.entities.criteria;
+package spring.jpa.entities.criteria;
 
 
-import com.example.jpa.entities.Album;
-import com.example.jpa.entities.Instrument;
-import com.example.jpa.entities.Singer;
+import spring.jpa.entities.Album;
+import spring.jpa.entities.Instrument;
+import spring.jpa.entities.Singer;
 
 import javax.annotation.Generated;
 import javax.persistence.metamodel.SetAttribute;

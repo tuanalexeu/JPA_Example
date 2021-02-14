@@ -1,8 +1,5 @@
-package com.example.jpa.entities;
+package spring.jpa.entities;
 
-import net.bytebuddy.dynamic.loading.InjectionClassLoader;
-
-import javax.annotation.Generated;
 import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Date;
